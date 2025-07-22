@@ -1,0 +1,11 @@
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\bin\Debug\DarkenedRTM.exe.config
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\bin\Debug\DarkenedRTM.exe
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\bin\Debug\DarkenedRTM.pdb
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.csproj.AssemblyReference.cache
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.Form1.resources
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.Properties.Resources.resources
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.csproj.GenerateResource.cache
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.csproj.CoreCompileInputs.cache
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.exe
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.pdb
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.RecoveryForm.resources
