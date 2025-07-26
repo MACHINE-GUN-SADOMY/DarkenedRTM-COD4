@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using DarkenedRTM.SubForms;
 
 namespace DarkenedRTM
 {
@@ -36,6 +37,12 @@ namespace DarkenedRTM
                 RecoveryForm recoveryForm = new RecoveryForm();
                 recoveryForm.Show();
             }
+        }
+
+        private void btnNonHost_Click(object sender, EventArgs e)
+        {
+            NonHostForm nonHostForm = new NonHostForm();
+            nonHostForm.Show();
         }
     }
 }

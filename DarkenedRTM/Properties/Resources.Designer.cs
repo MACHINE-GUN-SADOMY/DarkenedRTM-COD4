@@ -63,6 +63,26 @@ namespace DarkenedRTM.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _11656019_e9bd_48ee_8e82_d6cc35458e19 {
+            get {
+                object obj = ResourceManager.GetObject("11656019-e9bd-48ee-8e82-d6cc35458e19", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d1035d55_781f_4f87_a209_c1d7cfa0d19e {
+            get {
+                object obj = ResourceManager.GetObject("d1035d55-781f-4f87-a209-c1d7cfa0d19e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Sold__warheadart__catacombkvlt {
             get {
                 object obj = ResourceManager.GetObject("Sold.#warheadart #catacombkvlt", resourceCulture);

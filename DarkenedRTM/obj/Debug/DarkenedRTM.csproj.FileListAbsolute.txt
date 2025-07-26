@@ -9,3 +9,4 @@ C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.csp
 C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.exe
 C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.pdb
 C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.RecoveryForm.resources
+C:\Users\kristian\source\repos\DarkenedRTM\DarkenedRTM\obj\Debug\DarkenedRTM.SubForms.NonHostForm.resources

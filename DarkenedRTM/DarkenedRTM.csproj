@@ -59,8 +59,15 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FunctionsForm\FunctionsSubFormNonHost.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForms\NonHostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\NonHostForm.Designer.cs">
+      <DependentUpon>NonHostForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForms\RecoveryForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +87,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="SubForms\NonHostForm.resx">
+      <DependentUpon>NonHostForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForms\RecoveryForm.resx">
       <DependentUpon>RecoveryForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +108,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sold.#warheadart #catacombkvlt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11656019-e9bd-48ee-8e82-d6cc35458e19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1035d55-781f-4f87-a209-c1d7cfa0d19e.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

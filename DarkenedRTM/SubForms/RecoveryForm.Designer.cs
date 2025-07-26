@@ -42,6 +42,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnSetKd = new System.Windows.Forms.Button();
             this.btnUnlockAll = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnCloseMeWindows
@@ -52,7 +54,7 @@
             this.btnCloseMeWindows.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCloseMeWindows.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseMeWindows.ForeColor = System.Drawing.Color.Black;
-            this.btnCloseMeWindows.Location = new System.Drawing.Point(290, 12);
+            this.btnCloseMeWindows.Location = new System.Drawing.Point(233, 12);
             this.btnCloseMeWindows.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnCloseMeWindows.Name = "btnCloseMeWindows";
             this.btnCloseMeWindows.Size = new System.Drawing.Size(47, 35);
@@ -66,7 +68,7 @@
             this.lblNameSubForm.AutoSize = true;
             this.lblNameSubForm.Font = new System.Drawing.Font("Lucida Sans Unicode", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNameSubForm.ForeColor = System.Drawing.Color.Red;
-            this.lblNameSubForm.Location = new System.Drawing.Point(79, 17);
+            this.lblNameSubForm.Location = new System.Drawing.Point(51, 17);
             this.lblNameSubForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNameSubForm.Name = "lblNameSubForm";
             this.lblNameSubForm.Size = new System.Drawing.Size(164, 23);
@@ -80,10 +82,10 @@
             this.btnConnect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConnect.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConnect.ForeColor = System.Drawing.Color.Black;
-            this.btnConnect.Location = new System.Drawing.Point(192, 122);
+            this.btnConnect.Location = new System.Drawing.Point(149, 431);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(145, 34);
+            this.btnConnect.Size = new System.Drawing.Size(131, 32);
             this.btnConnect.TabIndex = 4;
             this.btnConnect.Text = "Max Level";
             this.btnConnect.UseVisualStyleBackColor = false;
@@ -96,10 +98,10 @@
             this.btnSetPrestige.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetPrestige.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetPrestige.ForeColor = System.Drawing.Color.Black;
-            this.btnSetPrestige.Location = new System.Drawing.Point(192, 82);
+            this.btnSetPrestige.Location = new System.Drawing.Point(149, 391);
             this.btnSetPrestige.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSetPrestige.Name = "btnSetPrestige";
-            this.btnSetPrestige.Size = new System.Drawing.Size(147, 34);
+            this.btnSetPrestige.Size = new System.Drawing.Size(131, 34);
             this.btnSetPrestige.TabIndex = 5;
             this.btnSetPrestige.Text = "Set Prestige";
             this.btnSetPrestige.UseVisualStyleBackColor = false;
@@ -110,9 +112,9 @@
             this.txtSetPrestige.BackColor = System.Drawing.Color.Black;
             this.txtSetPrestige.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSetPrestige.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtSetPrestige.Location = new System.Drawing.Point(22, 82);
+            this.txtSetPrestige.Location = new System.Drawing.Point(12, 391);
             this.txtSetPrestige.Name = "txtSetPrestige";
-            this.txtSetPrestige.Size = new System.Drawing.Size(163, 32);
+            this.txtSetPrestige.Size = new System.Drawing.Size(132, 32);
             this.txtSetPrestige.TabIndex = 6;
             // 
             // txtSetKills
@@ -120,9 +122,9 @@
             this.txtSetKills.BackColor = System.Drawing.Color.Black;
             this.txtSetKills.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSetKills.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtSetKills.Location = new System.Drawing.Point(22, 180);
+            this.txtSetKills.Location = new System.Drawing.Point(12, 479);
             this.txtSetKills.Name = "txtSetKills";
-            this.txtSetKills.Size = new System.Drawing.Size(163, 32);
+            this.txtSetKills.Size = new System.Drawing.Size(132, 32);
             this.txtSetKills.TabIndex = 7;
             // 
             // txtSetDeaths
@@ -130,9 +132,9 @@
             this.txtSetDeaths.BackColor = System.Drawing.Color.Black;
             this.txtSetDeaths.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSetDeaths.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtSetDeaths.Location = new System.Drawing.Point(22, 231);
+            this.txtSetDeaths.Location = new System.Drawing.Point(12, 517);
             this.txtSetDeaths.Name = "txtSetDeaths";
-            this.txtSetDeaths.Size = new System.Drawing.Size(163, 32);
+            this.txtSetDeaths.Size = new System.Drawing.Size(132, 32);
             this.txtSetDeaths.TabIndex = 8;
             // 
             // txtScore
@@ -140,9 +142,9 @@
             this.txtScore.BackColor = System.Drawing.Color.Black;
             this.txtScore.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtScore.Location = new System.Drawing.Point(22, 279);
+            this.txtScore.Location = new System.Drawing.Point(12, 555);
             this.txtScore.Name = "txtScore";
-            this.txtScore.Size = new System.Drawing.Size(163, 32);
+            this.txtScore.Size = new System.Drawing.Size(132, 32);
             this.txtScore.TabIndex = 9;
             // 
             // txtSetKdRatio
@@ -150,9 +152,9 @@
             this.txtSetKdRatio.BackColor = System.Drawing.Color.Black;
             this.txtSetKdRatio.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSetKdRatio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtSetKdRatio.Location = new System.Drawing.Point(22, 328);
+            this.txtSetKdRatio.Location = new System.Drawing.Point(12, 593);
             this.txtSetKdRatio.Name = "txtSetKdRatio";
-            this.txtSetKdRatio.Size = new System.Drawing.Size(163, 32);
+            this.txtSetKdRatio.Size = new System.Drawing.Size(132, 32);
             this.txtSetKdRatio.TabIndex = 10;
             // 
             // btnSetKills
@@ -162,10 +164,10 @@
             this.btnSetKills.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetKills.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetKills.ForeColor = System.Drawing.Color.Black;
-            this.btnSetKills.Location = new System.Drawing.Point(192, 180);
+            this.btnSetKills.Location = new System.Drawing.Point(147, 479);
             this.btnSetKills.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSetKills.Name = "btnSetKills";
-            this.btnSetKills.Size = new System.Drawing.Size(147, 32);
+            this.btnSetKills.Size = new System.Drawing.Size(131, 32);
             this.btnSetKills.TabIndex = 11;
             this.btnSetKills.Text = "Set Kills";
             this.btnSetKills.UseVisualStyleBackColor = false;
@@ -178,10 +180,10 @@
             this.btnSetDeaths.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetDeaths.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetDeaths.ForeColor = System.Drawing.Color.Black;
-            this.btnSetDeaths.Location = new System.Drawing.Point(190, 231);
+            this.btnSetDeaths.Location = new System.Drawing.Point(147, 517);
             this.btnSetDeaths.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSetDeaths.Name = "btnSetDeaths";
-            this.btnSetDeaths.Size = new System.Drawing.Size(147, 32);
+            this.btnSetDeaths.Size = new System.Drawing.Size(129, 32);
             this.btnSetDeaths.TabIndex = 12;
             this.btnSetDeaths.Text = "Set Deaths";
             this.btnSetDeaths.UseVisualStyleBackColor = false;
@@ -194,10 +196,10 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(190, 279);
+            this.button3.Location = new System.Drawing.Point(147, 555);
             this.button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 32);
+            this.button3.Size = new System.Drawing.Size(129, 32);
             this.button3.TabIndex = 13;
             this.button3.Text = "Set Score";
             this.button3.UseVisualStyleBackColor = false;
@@ -210,10 +212,10 @@
             this.btnSetKd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSetKd.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSetKd.ForeColor = System.Drawing.Color.Black;
-            this.btnSetKd.Location = new System.Drawing.Point(190, 328);
+            this.btnSetKd.Location = new System.Drawing.Point(145, 593);
             this.btnSetKd.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSetKd.Name = "btnSetKd";
-            this.btnSetKd.Size = new System.Drawing.Size(147, 32);
+            this.btnSetKd.Size = new System.Drawing.Size(131, 32);
             this.btnSetKd.TabIndex = 14;
             this.btnSetKd.Text = "Set KD Ratio";
             this.btnSetKd.UseVisualStyleBackColor = false;
@@ -226,21 +228,32 @@
             this.btnUnlockAll.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUnlockAll.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUnlockAll.ForeColor = System.Drawing.Color.Black;
-            this.btnUnlockAll.Location = new System.Drawing.Point(22, 122);
+            this.btnUnlockAll.Location = new System.Drawing.Point(12, 429);
             this.btnUnlockAll.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnUnlockAll.Name = "btnUnlockAll";
-            this.btnUnlockAll.Size = new System.Drawing.Size(163, 34);
+            this.btnUnlockAll.Size = new System.Drawing.Size(131, 33);
             this.btnUnlockAll.TabIndex = 15;
             this.btnUnlockAll.Text = "Unlock All";
             this.btnUnlockAll.UseVisualStyleBackColor = false;
             this.btnUnlockAll.Click += new System.EventHandler(this.btnUnlockAll_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::DarkenedRTM.Properties.Resources._11656019_e9bd_48ee_8e82_d6cc35458e19;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(268, 333);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // RecoveryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(352, 378);
+            this.ClientSize = new System.Drawing.Size(297, 639);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnUnlockAll);
             this.Controls.Add(this.btnSetKd);
             this.Controls.Add(this.button3);
@@ -258,6 +271,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RecoveryForm";
             this.Text = "RecoveryForm";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,5 +293,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnSetKd;
         private System.Windows.Forms.Button btnUnlockAll;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

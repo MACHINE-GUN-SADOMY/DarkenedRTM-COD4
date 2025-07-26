@@ -28,32 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnCloseMeWindows = new System.Windows.Forms.Button();
             this.lblCreeditsName = new System.Windows.Forms.Label();
             this.ptcMainPictureMenu = new System.Windows.Forms.PictureBox();
             this.btnConnect = new System.Windows.Forms.Button();
             this.btnAttach = new System.Windows.Forms.Button();
             this.btnRecovery = new System.Windows.Forms.Button();
             this.btnNonHost = new System.Windows.Forms.Button();
+            this.btnCloseMeWindows = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.ptcMainPictureMenu)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnCloseMeWindows
-            // 
-            this.btnCloseMeWindows.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnCloseMeWindows.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnCloseMeWindows.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnCloseMeWindows.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCloseMeWindows.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCloseMeWindows.ForeColor = System.Drawing.Color.Black;
-            this.btnCloseMeWindows.Location = new System.Drawing.Point(376, 11);
-            this.btnCloseMeWindows.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.btnCloseMeWindows.Name = "btnCloseMeWindows";
-            this.btnCloseMeWindows.Size = new System.Drawing.Size(47, 35);
-            this.btnCloseMeWindows.TabIndex = 0;
-            this.btnCloseMeWindows.Text = "X";
-            this.btnCloseMeWindows.UseVisualStyleBackColor = false;
-            this.btnCloseMeWindows.Click += new System.EventHandler(this.btnCloseMeWindows_Click);
             // 
             // lblCreeditsName
             // 
@@ -140,6 +123,24 @@
             this.btnNonHost.TabIndex = 6;
             this.btnNonHost.Text = "Non-Host";
             this.btnNonHost.UseVisualStyleBackColor = false;
+            this.btnNonHost.Click += new System.EventHandler(this.btnNonHost_Click);
+            // 
+            // btnCloseMeWindows
+            // 
+            this.btnCloseMeWindows.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCloseMeWindows.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnCloseMeWindows.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCloseMeWindows.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCloseMeWindows.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCloseMeWindows.ForeColor = System.Drawing.Color.Black;
+            this.btnCloseMeWindows.Location = new System.Drawing.Point(376, 11);
+            this.btnCloseMeWindows.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnCloseMeWindows.Name = "btnCloseMeWindows";
+            this.btnCloseMeWindows.Size = new System.Drawing.Size(47, 35);
+            this.btnCloseMeWindows.TabIndex = 0;
+            this.btnCloseMeWindows.Text = "X";
+            this.btnCloseMeWindows.UseVisualStyleBackColor = false;
+            this.btnCloseMeWindows.Click += new System.EventHandler(this.btnCloseMeWindows_Click);
             // 
             // Form1
             // 
@@ -167,14 +168,13 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCloseMeWindows;
         private System.Windows.Forms.Label lblCreeditsName;
         private System.Windows.Forms.PictureBox ptcMainPictureMenu;
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Button btnAttach;
         private System.Windows.Forms.Button btnRecovery;
         private System.Windows.Forms.Button btnNonHost;
+        private System.Windows.Forms.Button btnCloseMeWindows;
     }
 }
 
