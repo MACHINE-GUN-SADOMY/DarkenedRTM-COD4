@@ -87,8 +87,6 @@ Diseños monocromáticos tipo *scratchboard*, inspirados en estética undergroun
 - Dump de offsets personalizado
 - Modo seguro para prevenir softlocks
 
-## 📡 Proximamente
-
-> Se creara un video Showcase, mostrando la Tool en tiempo real, desde sus funciones hasta como se comporta.
+> Video de Demostracion: https://www.youtube.com/watch?v=rn2JDXdoSo8
 
 ---
